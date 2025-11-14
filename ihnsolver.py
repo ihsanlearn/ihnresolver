@@ -259,7 +259,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 v1.0.0
         """
 
-        , style="yellow")
+        , style="red")
     owner = Text(f"{OWNER}", style="italic")
     console.print(Panel(banner, subtitle=owner))
 
